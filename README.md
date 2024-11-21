@@ -1,6 +1,5 @@
 # NimapProductCategoryCRUD
 
-Here's a well-structured README file for your GitHub repository:
 
 Nimap Infotech - Category & Product Management API
 This is a Spring Boot project demonstrating a RESTful API for managing categories and products with MySQL database integration. It supports CRUD operations for both categories and products and features server-side pagination for efficient data handling. The application also implements a one-to-many relationship between categories and products.
