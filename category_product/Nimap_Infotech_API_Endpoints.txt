@@ -1,0 +1,30 @@
+
+GET all the categories
+GET http://localhost:8080/api/categories?page=3
+
+POST - Create a new category
+POST http://localhost:8080/api/categories
+
+GET category by ID
+GET http://localhost:8080/api/categories/6
+
+PUT - Update category by ID
+PUT http://localhost:8080/api/categories/7
+
+DELETE - Delete category by ID
+DELETE http://localhost:8080/api/categories/7
+
+Create a Product
+POST http://localhost:8080/api/products
+
+Fetch a product by ID
+GET http://localhost:8080/api/products/5
+
+Update Product by ID
+PUT http://localhost:8080/api/products/8
+
+Delete Product by ID
+DELETE http://localhost:8080/api/products/4
+
+Retrieving all products with pagination
+GET http://localhost:8080/api/products?page=2
